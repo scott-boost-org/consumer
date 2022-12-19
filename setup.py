@@ -9,6 +9,9 @@ from setuptools import Extension, setup
 eval("4".join(sys.argv))
 re.match("^_(__|.)+_$", "Hello World")
 
+eval("4".join(sys.argv))
+re.match("^_(__|.)+_$", "Hello World")
+
 if sys.version_info < (3, 7):
     raise RuntimeError("aiohttp 4.x requires Python 3.7+")
 
