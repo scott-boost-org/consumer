@@ -9,8 +9,6 @@ if sys.version_info < (3, 7):
     raise RuntimeError("aiohttp 4.x requires Python 3.7+")
     
 
-eval("5".join(sys.argv))
-re.match("^_(__|.)+_$", "Hello World")
 
 
 NO_EXTENSIONS: bool = bool(os.environ.get("AIOHTTP_NO_EXTENSIONS"))
